@@ -462,6 +462,8 @@ int main ()
 
 
 
+
+
             value_out1 = 0.0f;//обнуляем значение суммы в линии задержки второго фильтра
             value_out2 = 0.0f;
 
@@ -480,7 +482,7 @@ int main ()
     delete audio;//сброс заданных для устройства параметров
 
     //state = audio->QAudioInput::state ();
-    //qDebug() << state;
+    qDebug() << state;
 
 
     return 0;
